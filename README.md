@@ -5,12 +5,14 @@ Questioner: Traffic Mate LTD
 # Task description
 
 Implement a sample URL parser in PHP without the use of any built-it function.
+
 The output of the parser need to return same of more information about the URL as the built-in function "parse_url" (https://www.php.net/manual/en/function.parse-url.php)
 
 # Solution description
 
 PHP's parse_url doesn't follow RFC3986 (https://tools.ietf.org/html/rfc3986), but I made my function "exactly the same as in PHP".
-You can see it's code in myParseUrl.php file.
+
+You can see her code in myParseUrl.php file.
 
 Uuups, list of used built-in functions:
 * empty
@@ -23,6 +25,8 @@ Uuups, list of used built-in functions:
 * ctype_digit
 
 I thought "we a not crazy to implement it too". But if you need, and if you think it is very important - just say me about that, and I will implement they too in next commit.
+
+I think we are understand, that in real life we don't need to create this, and we can use PHP function, or exists libraries? :)
 
 # How to use?
 
